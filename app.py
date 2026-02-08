@@ -1,10 +1,17 @@
 import streamlit as st
 import pickle
 import numpy as np
+import os
 
-# Load model and scaler
-model = pickle.load(open("credit_default_rf_model.pkl", "rb"))
-scaler = pickle.load(open("scaler.pkl", "rb"))
+# Load model and scaler using absolute paths
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+model = pickle.load(
+    open(os.path.join(BASE_DIR, "model", "credit_default_rf_model.pkl"), "rb")
+)
+scaler = pickle.load(
+    open(os.path.join(BASE_DIR, "model", "scaler.pkl"), "rb")
+)
 
 st.set_page_config(page_title="Credit Default Prediction")
 
