@@ -1,6 +1,6 @@
 ## 📊 Credit Default Prediction System
 
-![Streamlit App Screenshot](images/capture.png)
+![Streamlit App Screenshot](images/Capture.png)
 
 ## Overview
 This project predicts whether a loan applicant is likely to default using machine learning techniques.
