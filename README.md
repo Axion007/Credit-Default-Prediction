@@ -21,7 +21,7 @@ Random Forest was selected based on higher Recall and F1-score, which are critic
 Model training and preprocessing were performed using Google Colab.  
 The trained model was exported and deployed locally using Streamlit.
 
-## Run Locally
+## Run Locally-
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
