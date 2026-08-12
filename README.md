@@ -4,7 +4,7 @@
 
 
 ## Overview
-This project predicts whether a loan applicant is likely to default using machine learning techniques...
+This project predicts whether a loan applicant is likely to default using machine learning techniques.......
 
 ## Dataset
 The dataset is sourced from the UCI Machine Learning Repository.  
