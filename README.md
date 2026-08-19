@@ -3,7 +3,7 @@
 ![Streamlit App Screenshot](images/app_screenshot.png)
 
 
-## Overview
+## Overview-
 This project predicts whether a loan applicant is likely to default using machine learning techniques.......
 
 ## Dataset
